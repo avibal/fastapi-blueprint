@@ -1,0 +1,56 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex; /* Enable flexbox */
+    height: 500px;
+    margin: 20px auto; /* Center the container */
+    width: 80%; /* Adjust width as needed */
+}
+
+.div1{
+    width: 50%; /* Each div takes 50% of the container width */
+    border: 1px solid black;
+    padding: 10px;    
+}
+
+.div2{
+    width: 50%; /* Each div takes 50% of the container width */
+    border: 1px solid black;
+    padding: 10px;        
+}
+
+.divChatRes {                
+    border: 1px solid black;
+    padding: 10px;
+    overflow:auto;
+    height: 300px;                
+}
+
+.divChatText {                
+    border: 1px solid black;
+    padding: 10px;    
+}
+.chattextArea{
+    width: 100%;
+}
+
+.json-pretty {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: monospace;
+    white-space: pre-wrap; /* Preserve line breaks and indentation */
+    direction: ltr;
+  }
