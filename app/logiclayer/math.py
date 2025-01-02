@@ -1,4 +1,4 @@
-import datalayer.math_data as math_data
+import database.math_data as math_data
 
 
 def GetMathData(quert_text):
