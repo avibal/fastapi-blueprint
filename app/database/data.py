@@ -4,7 +4,7 @@ import google.generativeai as genai
 import json
 
 # **Set the API_KEY environment variable before code execution**
-os.environ["API_KEY"] = "AIzaSyDvbKlcZu5WB9OiITCZAqXYJv_zOKfxfGM"  # Replace with your actual key
+os.environ["API_KEY"] = "*********"  # Replace with your actual key
 
 # Configure genai with the API key from the environment variable
 genai.configure(api_key=os.environ["API_KEY"])

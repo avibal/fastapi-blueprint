@@ -31,8 +31,8 @@ index_name = "mathdata"
 ns1 = "mathdata"
 modelDimention = 50
 pc = None
-PinCone_api_key="396a6bab-9a8e-4388-8bfe-bc28dab99239"
-OpenAI_api_key="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"
+PinCone_api_key="*******"
+OpenAI_api_key="******"
 #embeddings = OpenAIEmbeddings(openai_api_key=OpenAI_api_key)
 #model = SentenceTransformer('all-MiniLM-L6-v2')
 

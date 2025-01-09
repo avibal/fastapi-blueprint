@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from app.routers.router import router
 from app.core.config import settings
 from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 
 # Initialize tags before creating FastAPI app
 all_tags = settings.get_all_tags()
@@ -32,5 +33,4 @@ app.include_router(router)
 
 
 if __name__ == "__main__":
-    import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
